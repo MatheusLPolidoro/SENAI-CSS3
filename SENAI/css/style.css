@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+    transition: width 1s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+div:hover {
+    width:300px;
+}
